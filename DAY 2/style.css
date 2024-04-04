@@ -101,3 +101,28 @@ html{
     } 
    
 } */
+.parent1{
+    justify-content: space-between;
+    background-color: aqua;
+    display: flex;
+}
+.parent2{
+    justify-content:space-evenly;
+    background-color: blue;
+    display: flex;
+}
+.parent3{
+    justify-content: space-around;
+    background-color: green;
+    display: flex;
+}
+.parent4{
+    justify-content: flex-end;
+    background-color: palegreen;
+    display: flex;
+}
+.child{
+    background-color: orange;
+    padding-left: 80px;
+    border: 2px solid red;
+}
