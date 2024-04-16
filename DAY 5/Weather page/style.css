@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    background-color: black;
+}
+table,tr,td,th{
+    background-color: aqua;
+    border-collapse: collapse;
+    display: grid;
+    grid-template-columns: repeat(5,160px);
+    position: relative;
+    justify-content: space-around;
+     margin-left: 70px;
+    th{
+        font-size: 24px;
+    }
+    font-size: 20px;
+}
+footer{
+    height: 100px;
+    background-color: black;
+}

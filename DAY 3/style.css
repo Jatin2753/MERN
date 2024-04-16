@@ -1,0 +1,257 @@
+
+/* .parent{
+    display: grid;
+    grid-template-columns:50px 50px 50px; 
+     grid-template-columns: repeat(3,50px); 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    background-color: aqua;
+    border: 1px solid black;
+    column-gap: 10px;
+     row-gap: 10px;
+     height:200px
+   
+}
+.child{
+    background-color: yellow;
+    border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+ } 
+
+
+.header1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+   
+}
+
+.main1{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.menu1{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.right1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
+
+
+
+/* .parent1{
+    border-color: aquamarine;
+    border: 1 px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+.child1{
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 50px;
+    max-height: 100px;
+    background-color: aqua;
+} */
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: gray;
+}
+.parent3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative; 
+}
+
+.parent4{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+  
+   
+}
+.parent5{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+     position: sticky;
+     top: 30px;
+   
+   
+}
+.parent6{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute; 
+     top: 200px;
+    left: 200px;
+  
+   
+} */
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.new{
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+     background-color: purple;
+    color: white;
+     width: 400px;
+      height: 100%;
+      text-align: center;
+h1{
+    height: 75px;
+}
+}
+@media( width <=1400px)
+{
+    .new{
+        background-color:wheat ;
+        width: 70%;
+        height: 70%;
+        h1{
+            
+background-color: rgb(214, 128, 128);
+        }
+    }
+  
+}
+
+@media(800px <= width <=1000px)
+{
+    .new{
+        background-color:blue ;
+        width: 50%;
+        height: 50%;
+        h1{
+            
+background-color: gray;
+        }
+    }
+  
+}
+@media(400px <= width <=800px)
+{
+    .new{
+        background-color:gray ;
+        width: 30%;
+        height: 30%;
+        h1{
+            
+background-color: black;
+        }
+    }
+  
+}
+
+@media(200px <= width <=400px)
+{
+    .new{
+        background-color:aqua ;
+        width: 20%;
+        height: 20%;
+        h1{
+            
+background-color: green;
+        }
+    }
+  
+} */
+
+
+
+/* button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    transition-property: scale,background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+button:hover{
+    background-color: green;
+    scale: 1.5;
+    cursor: pointer;
+} */
+
+
+/* button{
+    scale: 2;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    animation-name: button-animation-type1;
+    animation-duration: 4s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes button-animation-type1{
+    /* from{
+        top: 20px;
+        left: 60px;
+    }
+    to{
+        top: 50%;
+        left:30%;
+    } 
+    0%{
+        top: 20px;
+        left:90%;
+    }
+    20%{
+        top: 90%;
+        left: 90%;
+    }
+    40%{
+        top: 90%;
+        left:10%;
+    }
+    80%{
+        top: 10%;
+        left: 90%;
+    }
+
+} */

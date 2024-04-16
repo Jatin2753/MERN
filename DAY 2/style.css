@@ -1,0 +1,128 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:cadetblue;
+}   
+div{
+    text-align: center;
+} 
+ .heading{
+    background-color: red; 
+    text-decoration: underline; 
+    text-transform: uppercase;
+    margin: 30px;
+}
+.big{
+    font-size: 42px;
+    padding: 20px;
+    margin: 16px;
+    border: 2px dashed black;
+    background-color: blue;
+}
+.parent{
+     margin: 0 10px 20px;
+    padding: 20px
+    width: 60px;
+    box-sizing: border-box;   
+    text-align: center;
+    p{
+        background-color: aqua;
+        width: fit-content;
+    }
+    span{
+        background-color: green;
+      
+    }
+}
+.new{
+    width: 100px;
+    background-color:cadetblue;
+    text-align: center;
+    margin: auto;
+} */
+/* body{
+    font-size: 20px;
+}
+html{
+    font-size: 20px;
+}
+.parent{
+   font-size: 10px; 
+   background-color: blue;
+}
+.child{
+    font-size: 20px; 
+    background-color: aqua;
+    width: 10rem;
+} */
+/* .btn{
+    background-color: gray;
+    display: block;
+    font-size: 1em;
+   
+}
+.btn-small{
+    font-size: 10px; 
+}
+.btn-big{
+    font-size: 20px; 
+} */
+/* body{
+    margin: 0;
+    height: 100vh;
+    width: 50vw;
+    background-color: rgb(138, 138, 228);
+ overflow-y: hidden;
+} */
+/* .parent{
+    background-color: rgb(252, 35, 35);
+    height: 100%;
+    color: white;
+}
+.child{
+    background-color: rgb(209, 145, 145);
+    height: 50vh;
+    color: white;
+   
+} */
+/* .parent {
+    ol:first-child{
+        background-color: green;
+    }
+    ul:last-child{
+        background-color: red;
+        li:nth-child(2){
+            background-color:chartreuse;
+           
+        }
+    } 
+   
+} */
+.parent1{
+    justify-content: space-between;
+    background-color: aqua;
+    display: flex;
+}
+.parent2{
+    justify-content:space-evenly;
+    background-color: blue;
+    display: flex;
+}
+.parent3{
+    justify-content: space-around;
+    background-color: green;
+    display: flex;
+}
+.parent4{
+    justify-content: flex-end;
+    background-color: palegreen;
+    display: flex;
+}
+.child{
+    background-color: orange;
+    padding-left: 80px;
+    border: 2px solid red;
+}
