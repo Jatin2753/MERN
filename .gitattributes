@@ -1,0 +1,3 @@
+large-file.zip filter=lfs diff=lfs merge=lfs -text
+DAY6.zip filter=lfs diff=lfs merge=lfs -text
+E:MERNDAY6.zip filter=lfs diff=lfs merge=lfs -text
